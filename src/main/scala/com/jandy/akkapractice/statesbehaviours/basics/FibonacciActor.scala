@@ -1,4 +1,4 @@
-package com.jandy.akkapractice.statesbehaviours
+package com.jandy.akkapractice.statesbehaviours.basics
 
 import akka.actor.Actor
 
