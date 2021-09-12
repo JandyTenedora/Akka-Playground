@@ -1,4 +1,3 @@
 FROM java:8
-COPY docker/Hello-Akka-assembly-1.0.jar Hello-Akka-assembly-1.0.jar
-RUN java -cp Hello-Akka-assembly-1.0.jar
-com.jandy.akkapractice.package5.devops.logging.Logging
+COPY docker/akka-hello-assembly-1.0.jar akka-hello-assembly-1.0.jar
+RUN java -cp akka-hello-assembly-1.0.jar com.jandy.akkapractice.package5.devops.logging.Logging
