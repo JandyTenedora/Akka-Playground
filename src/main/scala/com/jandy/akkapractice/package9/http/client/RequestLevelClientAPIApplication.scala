@@ -29,7 +29,7 @@ object RequestLevelClientAPIApplication extends App {
             materializer.shutdown()
             system.terminate()
           }
-        case _ =>
+        case _ => println("failed to decode into UTF-8")
       }
     case _ => println(s"request failed")
   }
